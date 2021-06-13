@@ -9,8 +9,7 @@ Import-Package: \
  com.sun.management.*,\
  javax.management.*,\
  javax.annotation.*,\
- javax.sql.DataSource,\
- jdk.Exported,\
+ javax.sql,\
 Export-Package: io.micrometer.core.*;-split-package:=merge-first,\
  org.HdrHistogram.*;-split-package:=merge-first,\
  org.LatencyUtils.*;-split-package:=merge-first
